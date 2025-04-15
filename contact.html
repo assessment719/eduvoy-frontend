@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About EduVoy</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="hero-section" id="hero">
+        <header>
+            <img src="EduVoy_Logo.png">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <li>Investors</li>
+                <li>Services <i class="fa-solid fa-angle-down"></i>
+                    <div class="service-list">
+                        <a href="service.html">
+                            <p>Pre-Application Assistance</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Application Process</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Post-Application Assistance</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Interview Preparation</p>
+                        </a>
+                        <a href="service.html">
+                            <p style="border-bottom: none;">Visa Assistance</p>
+                        </a>
+                    </div>
+                </li>
+                <li>Partner With Us</li>
+            </ul>
+            <div class="headerBtns">
+                <a href="login.html"><button class="userBtns" id="loginBtn">Login</button></a>
+                <a href="registration.html"><button class="userBtns" id="registerBtn">Register</button></a>
+            </div>
+        </header>
+    </div>
+
+    <!-- Contact Us Form section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="subtitle">We'd love to hear from you. Fill out the form below and we'll get back to you as soon as
+                possible.</p>
+
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message" rows="5"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pop-up Modal -->
+        <div id="successModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div class="success-icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>Thank You!</h3>
+                <p>Your message has been submitted successfully. We'll get back to you shortly.</p>
+                <button id="closeModal" class="submit-btn">Close</button>
+            </div>
+        </div>
+    </section>
+
+    <a href="#hero">
+        <div class="back-top" id="back-to-top">
+            <img src="https://i.postimg.cc/L8QnCkC0/BackTop.png" alt="Back To Top" width="40px" style="display: block;">
+        </div>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="EduVoy_Logo.png" alt="EduVoy Logo" class="footer-logo">
+                <p class="footer-description">
+                    The EduVoy platform is the one stop solution for Institutions and students alike to unlock global
+                    access, gain awareness and achieve strategic objectives.
+                </p>
+                <h4 class="footer-heading follow">Follow Us</h4>
+                <div class="socialmedia" style="margin-left: -9px;">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-facebook-f" style="padding-right: 7.5px; padding-left: 13px;"></i>
+                    <i class="fa-brands fa-instagram" style="padding-left: 11px;"></i>
+                    <i class="fa-brands fa-x-twitter" style="padding-left: 10.5px; padding-right: 10.5px;"></i>
+                    <i class="fa-brands fa-youtube" style="padding-left: 9.8px; padding-right: 12px;"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Address & Contact Details</h4>
+                <p class="footer-info">
+                    India Hub, 20<sup>th</sup> floor, Amrendra Bahubali Street, Chennai - 100678, Tamilnadu<br><br>
+                    <i class="fa-solid fa-envelope"></i> <a href="mailto:info@eduvoy.com"
+                        class="footer-link">info@eduvoy.com</a><br>
+                    <i class="fa-solid fa-phone"></i> <a href="tel:+911234567890" class="footer-link">+911234567890</a>
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Subscribe To Our Newsletter</h4>
+                <input type="email" id="newsLetter" placeholder="Enter Your Email Id"><br>
+                <a href="#" class="footer-button">Submit</a>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Become A Partner</h4>
+                <a href="#" class="footer-button">Join Now</a><br><br>
+                <h4 class="footer-heading">Book an Appointment</h4>
+                <a href="#" class="footer-button">Book Now</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 EduVoy | All rights reserved.</p>
+            <a href="#" class="footer-bottom-link">Terms of Use</a> |
+            <a href="#" class="footer-bottom-link">Privacy Policy</a> |
+            <a href="#" class="footer-bottom-link">Refund Policy</a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const contactForm = document.getElementById('contactForm');
+            const modal = document.getElementById('successModal');
+            const closeBtn = document.querySelector('.close-btn');
+            const closeModalBtn = document.getElementById('closeModal');
+
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    phone: document.getElementById('phone').value,
+                    subject: document.getElementById('subject').value,
+                    message: document.getElementById('message').value
+                };
+
+                modal.style.display = 'flex';
+
+                contactForm.reset();
+            });
+
+            closeBtn.addEventListener('click', function () {
+                modal.style.display = 'none';
+            });
+
+            closeModalBtn.addEventListener('click', function () {
+                modal.style.display = 'none';
+            });
+
+            window.addEventListener('click', function (e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+
+        const backToTopButton = document.getElementById('back-to-top');
+        const heroSection = document.getElementById('hero');
+
+        const toggleButtonVisibility = (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    backToTopButton.style.opacity = '0';
+                    backToTopButton.style.visibility = 'hidden';
+                } else {
+                    backToTopButton.style.visibility = 'visible';
+                    backToTopButton.style.opacity = '1';
+                }
+            });
+        };
+
+        const observer4 = new IntersectionObserver(toggleButtonVisibility, {
+            threshold: 0.1
+        });
+
+        observer4.observe(heroSection);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVoy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <div class="hero-section" id="hero">
+        <header>
+            <img src="EduVoy_Logo.png">
+            <ul>
+                <a href="about-vision-service.html">
+                    <li>About Us</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+                <li>Services <i class="fa-solid fa-angle-down"></i>
+                    <div class="service-list">
+                        <a href="service.html">
+                            <p>Pre-Application Assistance</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Application Process</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Post-Application Assistance</p>
+                        </a>
+                        <a href="service.html">
+                            <p>Interview Preparation</p>
+                        </a>
+                        <a href="service.html">
+                            <p style="border-bottom: none;">Visa Assistance</p>
+                        </a>
+                    </div>
+                </li>
+                <li>Partner With Us</li>
+            </ul>
+            <div class="headerBtns">
+                <a href="login.html"><button class="userBtns" id="loginBtn">Login</button></a>
+                <a href="registration.html"><button class="userBtns" id="registerBtn">Register</button></a>
+            </div>
+        </header>
+        <div id="home">
+            <div class="gradient-overlay"></div>
+            <img src="/Images/Award_IMG1.jpeg">
+            <img src="/Images/Award_IMG2.jpeg">
+            <img src="/Images/Award_IMG3.jpeg">
+            <img src="/Images/Award_IMG4.jpeg">
+            <div class="event">
+                <h1>University Award Ceremony - 1</h1>
+                <p>25th December, 2023</p>
+            </div>
+            <div class="event">
+                <h1>University Award Ceremony - 2</h1>
+                <p>25th March, 2024</p>
+            </div>
+            <div class="event">
+                <h1>University Award Ceremony - 3</h1>
+                <p>25th April, 2024</p>
+            </div>
+            <div class="event">
+                <h1>University Award Ceremony - 4</h1>
+                <p>25th August, 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="text-content" id="aboutText">
+            <h1>About Us</h1>
+            <p>We are a dedicated overseas education consultancy, committed to guiding students through every step of
+                their journey to study in the UK, USA, Canada, and Ireland. Our personalized approach ensures each
+                student receives expert advice tailored to their academic goals.</p>
+            <a href="about.html"><button class="userBtns" id="aboutBtn">Learn More</button></a>
+        </div>
+        <div class="image" id="aboutImg">
+            <img src="/Images/Home_image1.jpg">
+        </div>
+    </section>
+
+    <section>
+        <div class="image" id="visionImg">
+            <img src="/Images/Home_image2.jpg">
+        </div>
+        <div class="text-content" id="visionText">
+            <h1>Our Vision</h1>
+            <p>To create a world where every student has the opportunity to pursue a global education, unlocking their
+                potential and achieving their dreams through quality guidance and support.</p>
+            <a href="vision.html"><button class="userBtns" id="visionBtn">Learn More</button></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-content" id="serviceText">
+            <h1>Our Services</h1>
+            <p>We offer comprehensive support from university selection and application assistance to visa guidance and
+                post-arrival support, ensuring a seamless transition for students aspiring to study abroad.</p>
+            <a href="service.html"><button class="userBtns" id="serviceBtn">Learn More</button></a>
+        </div>
+        <div class="image" id="serviceImg">
+            <img src="/Images/Home_image3.jpg">
+        </div>
+    </section>
+
+    <div class="why">
+        <h1 class="headings">Why EduVoy?</h1>
+        <div class="intro-video">
+            <a data-fancybox href="/Videos/Why_Vid.mp4">
+                <img src="/Images/why.png" alt="Video Thumbnail 3">
+            </a>
+        </div>
+        <div class="counts">
+            <div class="numbers">
+                <h1 id="num1">100+</h1>
+                <p>Recruitment Partners</p>
+            </div>
+            <div class="numbers">
+                <h1 id="num2">100+</h1>
+                <p>Successful Students</p>
+            </div>
+            <div class="numbers">
+                <h1 id="num3">100+</h1>
+                <p>Partner Institutions</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="destinations">
+        <h1 class="headings">Explore Global Study Destinations</h1>
+        <div class="swipe">
+            <button class="swipeBtns" id="prevBtn"><img src="PreviousButton.png" alt="Previous Button"></button>
+            <div class="destination-images">
+                <img src="/Images/USA.jpg" style="display: flex;">
+                <img src="/Images/UK.jpg" style="display: none;">
+                <img src="/Images/Canada.jpg" style="display: none;">
+                <img src="/Images/Ireland.jpg" style="display: none;">
+                <img src="/Images/Australia.jpg" style="display: none;">
+                <img src="/Images/New_Zealand.jpg" style="display: none;">
+                <img src="/Images/Singapore.jpg" style="display: none;">
+                <img src="/Images/Dubai.jpg" style="display: none;">
+                <div class="countries" style="display: flex;">
+                    <h1>United States of America</h1>
+                    <a href="USA.html"><button class="countryBtns" id="serviceBtn">Learn More</button></a>
+                </div>
+                <div class="countries">
+                    <h1>United Kingdom</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>Canada</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>Ireland</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>Australia</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>New Zealand</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>Singapore</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+                <div class="countries">
+                    <h1>Dubai</h1>
+                    <button class="countryBtns" id="serviceBtn">Learn More</button>
+                </div>
+            </div>
+            <button class="swipeBtns" id="nextBtn"><img src="NextButton.png" alt="Next Button"></button>
+        </div>
+    </div>
+
+    <div class="slider">
+        <h1 class="headings">Our Top Partner Institutions</h1>
+        <div class="slide-track">
+            <div class="slide">
+                <img src="https://mycovenant.org.uk/wp-content/uploads/2018/12/uniofleicesterlogo.png" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7HQOdfZ2a2InHf8Z_V66ustzDR9iCLiavKA&s"
+                    height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjWxiNf-5UFN2h4D26FRsErdmz9-Ga8pkFNw&s" height="100"
+                    width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ7OThBdzsRNAIvL7ZLA9nhjqRcIjg7C-dAw&s"
+                    height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBxHxxUo6eZhv-lWY2iFhrrXkH6jhsfBw0Q&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYteZ4uGJczix3jUr50Eg6QN0-bqikD7XQQ&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdeBKWGX3OMCGinToteBBEXVoFzGTOgpjcw&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSip7cEv0DiFwdoJgzk2RVQ5c20090UsWtU6g&s"
+                    height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHgnTQqg336i-cf_jwuMBHciyGczhX7Ayveg&s" height="100"
+                    width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://webassets.unt.edu/assets/branding/unt-stacked-logo.svg" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScWiuFA5q-cn34u2Vyahe6sUPIm-UiG_Hbng&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnMqLbsTGFWc6wwj7eavbCyCK3iT1RZosuA&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33cXyvOMV9noe-3E2eeoVbWsYKQWoVQwxVg&s" height="100" width="250"
+                    alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFLEVPnr33TJAR3mr7EAyImU4CRg5c6V5t8A&s"
+                    height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="review">
+        <h1 class="headings">What Our Partners Have to Say</h1>
+        <div class="review-buttons">
+            <button class="review-but" id="reviewbut1">STUDENTS</button>
+            <button class="review-but" id="reviewbut2">RECRUITMENT PARTNERS</button>
+            <button class="review-but" id="reviewbut3">PARTNER INSTITUTIONS</button>
+        </div>
+        <div class="iframe-container">
+            <div class="iframes" id="iframe1">
+                <a data-fancybox href="Student_Vid.mp4">
+                    <img src="/Videos/Student_Vid.mp4" alt="Video Thumbnail 1">
+                </a>
+            </div>
+            <div class="iframes" id="iframe2">
+                <a data-fancybox href="Recruiter_Vid.mp4">
+                    <img src="/Videos/Recruiter.jpg" alt="Video Thumbnail 2">
+                </a>
+            </div>
+            <div class="iframes" id="iframe3">
+                <a data-fancybox href="Partner_Vid.mp4">
+                    <img src="/Videos/Institution.jpg" alt="Video Thumbnail 3">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="articles">
+        <h1 class="headings">Latest Articles</h1>
+        <div class="two-articles">
+            <div class="article">
+                <div class="article-img">
+                    <img src="/Images/Article_UK.jpg">
+                </div>
+                <p>The UK’s Evolving Overseas Education Landscape in 2024 Record-Breaking International Student Numbers
+                    and Policy Shifts How the UK Continues to Attract Global Talent Amidst Changing Dynamics</p>
+                <a>Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="article">
+                <div class="article-img">
+                    <img src="/Images/Article_Canada.jpg">
+                </div>
+                <p>Canada’s Thriving Overseas Education System in 2024 Record-Breaking International Student Enrollment
+                    and Economic Impact How Canada Continues to Lead in Global Education Amidst Policy Shifts</p>
+                <a>Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="EduVoy_Logo.png" alt="EduVoy Logo" class="footer-logo">
+                <p class="footer-description">
+                    The EduVoy platform is the one stop solution for Institutions and students alike to unlock global
+                    access, gain awareness and achieve strategic objectives.
+                </p>
+                <h4 class="footer-heading follow">Follow Us</h4>
+                <div class="socialmedia" style="margin-left: -9px;">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-facebook-f" style="padding-right: 7.5px; padding-left: 13px;"></i>
+                    <i class="fa-brands fa-instagram" style="padding-left: 11px;"></i>
+                    <i class="fa-brands fa-x-twitter" style="padding-left: 10.5px; padding-right: 10.5px;"></i>
+                    <i class="fa-brands fa-youtube" style="padding-left: 9.8px; padding-right: 12px;"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Address & Contact Details</h4>
+                <p class="footer-info">
+                    India Hub, 20<sup>th</sup> floor, Amrendra Bahubali Street, Chennai - 100678, Tamilnadu<br><br>
+                    <i class="fa-solid fa-envelope"></i> <a href="mailto:info@eduvoy.com"
+                        class="footer-link">info@eduvoy.com</a><br>
+                    <i class="fa-solid fa-phone"></i> <a href="tel:+911234567890" class="footer-link">+911234567890</a>
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Subscribe To Our Newsletter</h4>
+                <input type="email" id="newsLetter" placeholder="Enter Your Email Id"><br>
+                <a href="#" class="footer-button">Submit</a>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Become A Partner</h4>
+                <a href="#" class="footer-button">Join Now</a><br><br>
+                <h4 class="footer-heading">Book an Appointment</h4>
+                <a href="#" class="footer-button">Book Now</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 EduVoy | All rights reserved.</p>
+            <a href="#" class="footer-bottom-link">Terms of Use</a> |
+            <a href="#" class="footer-bottom-link">Privacy Policy</a> |
+            <a href="#" class="footer-bottom-link">Refund Policy</a>
+        </div>
+    </footer>
+
+    <div class="welcome-chat" id="welcome-chat">
+        <div class="chat-body">
+            Do you need assistance?
+            <br>
+            I am here to help you.
+        </div>
+    </div>
+
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            FAQ Chat Support
+        </div>
+        <div class="chat-body" id="chatBody">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="question-list" id="questionList">
+            <!-- Questions will appear here -->
+        </div>
+        <div class="name-input-container" id="nameInputContainer">
+            <label for="nameInput">Enter Your Name:</label>
+            <input type="text" id="nameInput">
+            <button type="button" onclick="submitName()">Submit</button>
+        </div>
+        <div class="menu-icon" onclick="toggleQuestionList()">☰ Frequently Asked Questions ☰</div>
+        <div class="chat-footer">
+            <button class="clear-button" onclick="clearMessages()">Clear Messages</button>
+        </div>
+    </div>
+
+    <div class="welcome-chat-closer" id="welcome-chat-closerbutton" onclick="closewelcomeChat()">
+        <img src="https://i.postimg.cc/qvvNxDL3/Close.png" alt="Welcome Chat Close" width="15px"
+            style="display: block;">
+    </div>
+
+    <div class="chat-widget" onclick="toggleChat()">
+        <img id="Image1" src="https://i.postimg.cc/P5XwF5tN/Chat.png" alt="Chat Open" width="40px"
+            style="display: block;">
+        <img id="Image2" src="https://i.postimg.cc/qvvNxDL3/Close.png" alt="Chat Close" width="35px"
+            style="display: none;">
+    </div>
+
+    <a href="#hero">
+        <div class="back-top" id="back-to-top">
+            <img src="https://i.postimg.cc/L8QnCkC0/BackTop.png" alt="Back To Top" width="40px" style="display: block;">
+        </div>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+
+</html>

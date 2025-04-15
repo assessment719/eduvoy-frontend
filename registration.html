@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVoy Login Page</title>
+    <link rel="stylesheet" href="sign-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="EduVoy_Logo.png">
+        <ul>
+            <a href="about-vision-service.html">
+                <li>About Us</li>
+            </a>
+            <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+            <li>Services <i class="fa-solid fa-angle-down"></i>
+                <div class="service-list">
+                    <a href="service.html"><p>Pre-Application Assistance</p></a>
+                    <a href="service.html"><p>Application Process</p></a>
+                    <a href="service.html"><p>Post-Application Assistance</p></a>
+                    <a href="service.html"><p>Interview Preparation</p></a>
+                    <a href="service.html"><p style="border-bottom: none;">Visa Assistance</p></a>
+                </div>
+            </li>
+            <li>Investors</li>
+        </ul>
+    </header>
+    <h1 id="signHeading">Start Your Journey With EduVoy</h1>
+    <div class="user-details">
+        <img src="/Images/sign.jpg">
+        <div class="inputs">
+            <button class="input-buttons" id="loginbtn">Login</button>
+            <button class="input-buttons" id="registrationbtn">Register</button>
+            <div class="input-details" id="login" style="display: none;">
+                <div class="forms">
+                    <h3>User Id</h3>
+                    <input type="email" placeholder="Enter Your Email Id" class="input-details-input">
+                    <h3>Password</h3>
+                    <div class="password">
+                        <input type="password" placeholder="Enter Your Password" id="password1">
+                        <div class="eyecon" id="eyeconbtn1">
+                            <i class="fa-solid fa-eye" id="on1" style="display: flex;"></i>
+                            <i class="fa-solid fa-eye-slash" id="off1" style="display: none;"></i>
+                        </div>
+                    </div><br>
+                    <div class="forgot">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMe">
+                            <label for="rememberMe">Remember Me</label>
+                        </div>
+                        <p>Forgot Password?</p>
+                    </div><br>
+                    <button class="sign-button">Submit</button>
+                </div>
+            </div>
+            <div class="input-details" id="registration" style="display: block;">
+                <div class="forms">
+                    <h3>User Id</h3>
+                    <input type="email" placeholder="Enter Your Email Id" class="input-details-input"
+                        id="regdEmail"><br>
+                    <button class="sign-button" id="goToregistration1">Submit</button>
+                </div>
+            </div>
+            <div class="input-details" id="registration1" style="display: none;">
+                <div class="forms">
+                    <h3>Enter The OTP</h3>
+                    <P>An 6 Digit OTP Has Been Send To Your Email Id.</P><br>
+                    <input type="number" placeholder="Enter The One Time Password" class="input-details-input"
+                        id="regdOTP"><br>
+                    <button class="sign-button" id="goToregistration2">Submit</button>
+                </div>
+            </div>
+            <div class="input-details" id="registration2" style="display: none;">
+                <div class="forms">
+                    <h3>Are You A Student or, A Recruitment Partner?</h3>
+                    <select class="styled-select" id="userType">
+                        <option value="Student">I Am A Student</option>
+                        <option value="Recruitment Partner">I Am A Recruitment Partner</option>
+                    </select>
+                    <button class="sign-button" id="goToregistration34">Submit</button>
+                </div>
+            </div>
+            <div class="input-details" id="registration3" style="display: none;">
+                <div class="forms">
+                    <br>
+                    <h1 style="text-align: center;">Fill Up Your Details</h1>
+                    <h3>Enter Your Name</h3>
+                    <input type="text" placeholder="Enter Your Name" class="input-details-input">
+                    <h3>Enter Your Mobile Number</h3>
+                    <input type="tel" placeholder="Enter Your Mobile Number" class="input-details-input">
+                    <h3>Create New Password</h3>
+                    <div class="password">
+                        <input type="password" placeholder="Create Your Password" id="password2">
+                        <div class="eyecon" id="eyeconbtn2">
+                            <i class="fa-solid fa-eye" id="on2" style="display: flex;"></i>
+                            <i class="fa-solid fa-eye-slash" id="off2" style="display: none;"></i>
+                        </div>
+                    </div><br>
+                    <button class="sign-button">Submit</button>
+                </div>
+            </div>
+            <div class="input-details" id="registration4" style="display: none;">
+                <div class="forms">
+                    <br>
+                    <h1 style="text-align: center;">Fill Up Your Details</h1>
+                    <h3>Enter Your Company Name</h3>
+                    <input type="text" placeholder="Enter Your Company Name" class="input-details-input">
+                    <h3>Enter Your Name</h3>
+                    <input type="text" placeholder="Enter Your Name" class="input-details-input">
+                    <h3>Enter Your Company Address</h3>
+                    <input type="text" placeholder="Enter Your Company Address" class="input-details-input">
+                    <h3>Enter Your Company Mobile Number</h3>
+                    <input type="tel" placeholder="Enter Your Company Mobile Number" class="input-details-input">
+                    <h3>Create New Password</h3>
+                    <div class="password">
+                        <input type="password" placeholder="Create Your Password" id="password3">
+                        <div class="eyecon" id="eyeconbtn3">
+                            <i class="fa-solid fa-eye" id="on3" style="display: flex;"></i>
+                            <i class="fa-solid fa-eye-slash" id="off3" style="display: none;"></i>
+                        </div>
+                    </div><br>
+                    <button class="sign-button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="EduVoy_Logo.png" alt="EduVoy Logo" class="footer-logo">
+                <p class="footer-description">
+                    The EduVoy platform is the one stop solution for Institutions and students alike to unlock global
+                    access, gain awareness and achieve strategic objectives.
+                </p>
+                <h4 class="footer-heading follow">Follow Us</h4>
+                <div class="socialmedia" style="margin-left: -9px;">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-facebook-f" style="padding-right: 7.5px; padding-left: 13px;"></i>
+                    <i class="fa-brands fa-instagram" style="padding-left: 11px;"></i>
+                    <i class="fa-brands fa-x-twitter" style="padding-left: 10.5px; padding-right: 10.5px;"></i>
+                    <i class="fa-brands fa-youtube" style="padding-left: 9.8px; padding-right: 12px;"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Address & Contact Details</h4>
+                <p class="footer-info">
+                    India Hub, 20<sup>th</sup> floor, Amrendra Bahubali Street, Chennai - 100678, Tamilnadu<br><br>
+                    <i class="fa-solid fa-envelope"></i> <a href="mailto:info@eduvoy.com"
+                        class="footer-link">info@eduvoy.com</a><br>
+                    <i class="fa-solid fa-phone"></i> <a href="tel:+911234567890" class="footer-link">+911234567890</a>
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Subscribe To Our Newsletter</h4>
+                <input type="email" id="newsLetter" placeholder="Enter Your Email Id"><br>
+                <a href="#" class="footer-button">Submit</a>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-heading">Become A Partner</h4>
+                <a href="#" class="footer-button">Join Now</a><br><br>
+                <h4 class="footer-heading">Book an Appointment</h4>
+                <a href="#" class="footer-button">Book Now</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 EduVoy | All rights reserved.</p>
+            <a href="#" class="footer-bottom-link">Terms of Use</a> |
+            <a href="#" class="footer-bottom-link">Privacy Policy</a> |
+            <a href="#" class="footer-bottom-link">Refund Policy</a>
+        </div>
+    </footer>
+    <script src="registration-script.js"></script>
+</body>
+
+</html>
