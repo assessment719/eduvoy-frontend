@@ -30,7 +30,7 @@ const observer = new IntersectionObserver(toggleButtonVisibility, {
 observer.observe(heroSection);
 
 const Universities = [
-    { name: 'Harvard University', pic: '/Images/Harvard4.jpg', logo: '/Images/HarvardLogo.jpeg', address: 'Cambridge, MA', link: 'Harvard-Uni.html' },
+    { name: 'Harvard University', pic: 'https://i.postimg.cc/3rzr8CDD/Harvard4.jpg', logo: 'https://i.postimg.cc/Yqp7qnC0/Harvard-Logo.jpg', address: 'Cambridge, MA', link: 'Harvard-Uni.html' },
     { name: 'Stanford University', pic: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', logo: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', address: 'Stanford, CA', link: '#' },
     { name: 'Massachusetts Institute of Technology', pic: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', logo: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', address: 'Cambridge, MA', link: '#' },
     { name: 'University of California, Berkeley', pic: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', logo: 'https://i.postimg.cc/h4Xp1Cd3/Home-image1.jpg', address: 'Berkeley, CA', link: '#' },
